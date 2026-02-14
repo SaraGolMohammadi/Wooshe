@@ -1,0 +1,35 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    gap: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .card-card {
+    position: relative;
+  }
+  
+  .card-img {
+    width: 600px;
+    display: block;
+  }
+  
+ 
+  .card-title {
+    position: absolute;
+    bottom: 120px;
+    left: 30%;
+    transform: translateX(-50%);
+    z-index: 2;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 12px;
+    font-size: 30px;
+  }
+  
