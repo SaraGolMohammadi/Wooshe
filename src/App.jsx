@@ -7,6 +7,9 @@ import Card from './components/woshe/Card'
 import Cart2 from './components/woshe/Cart2'
 import Woshe from './components/woshe/woshe'
 import { CartProvider } from './context/CartContext'
+
+
+
 function App() {
 
   return (
@@ -16,9 +19,9 @@ function App() {
      <MySwiper/>
      <Cart/>
      
-<Card/>
-<Cart2/>
-<Woshe/>
+      <Card/>
+      <Cart2/>
+      <Woshe/>
   </CartProvider>
 
 
